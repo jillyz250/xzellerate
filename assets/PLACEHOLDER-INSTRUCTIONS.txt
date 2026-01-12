@@ -1,0 +1,44 @@
+XZELLERATE - Image Asset Instructions
+=====================================
+
+Please add the following images to this folder:
+
+1. logo.png
+   - Your company logo
+   - Recommended size: 200x60px
+   - Format: PNG with transparent background
+   - High resolution (2x for retina displays)
+
+2. headshot.jpg
+   - Professional headshot photo
+   - Recommended size: 800x800px minimum
+   - Format: JPG or WebP
+   - High quality, professional lighting
+   - Used in hero section
+
+3. about-image.jpg
+   - Professional photo for about section
+   - Recommended size: 600x800px or larger
+   - Format: JPG or WebP
+   - Can be same as headshot or different pose
+   - Used in about/credentials section
+
+IMAGE OPTIMIZATION TIPS:
+- Compress images before upload (use TinyPNG.com or Squoosh.app)
+- Target file size: < 500KB per image
+- Use WebP format for better compression
+- Ensure images are sharp and professional quality
+- Consider 2x resolution for retina displays
+
+WHERE TO EXTRACT FROM WEBSITE:
+If you have access to xzellerate.com:
+1. Right-click on logo and "Save image as..."
+2. Right-click on headshot and "Save image as..."
+3. Save with the exact names listed above
+
+TEMPORARY PLACEHOLDER:
+Until you add your images, the site will show broken image icons
+or use the text logo "XZELLERATE" as fallback.
+
+The website is fully functional without images, but adding them
+will significantly improve the professional appearance.
