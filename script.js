@@ -172,14 +172,6 @@ function initScrollAnimations() {
         observer.observe(card);
     });
 
-    // Observe testimonial cards
-    const testimonialCards = document.querySelectorAll('.testimonial-card');
-    testimonialCards.forEach((card, index) => {
-        card.classList.add('reveal');
-        card.style.transitionDelay = `${index * 0.1}s`;
-        observer.observe(card);
-    });
-
     // Observe other sections
     const revealElements = document.querySelectorAll('.about-content, .contact-content');
     revealElements.forEach(el => {
@@ -247,15 +239,17 @@ function initContactForm() {
             submitButton.textContent = 'Sending...';
             submitButton.disabled = true;
 
-            // Simulate API call (replace with actual form submission)
+            // Simulate API call (replace with actual form submission to Jason@XZELLERATE.com)
+            // In production, integrate with a backend service or use Formspree/Netlify Forms
             setTimeout(() => {
                 showNotification('Thank you! Your message has been sent successfully. We\'ll get back to you soon!', 'success');
                 form.reset();
                 submitButton.textContent = originalText;
                 submitButton.disabled = false;
 
-                // Log form data (in production, this would be sent to a server)
+                // Log form data (in production, this would be sent to Jason@XZELLERATE.com)
                 console.log('Form submitted with data:', formData);
+                console.log('Form should be submitted to: Jason@XZELLERATE.com');
             }, 1500);
         });
     }
@@ -502,6 +496,6 @@ console.log(
     'background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); color: white; padding: 10px 20px; font-size: 16px; font-weight: bold; border-radius: 5px;'
 );
 console.log(
-    '%cInterested in working together? Contact us at contact@xzellerate.com',
+    '%cInterested in working together? Contact us at Jason@XZELLERATE.com',
     'color: #2563eb; font-size: 14px; padding: 5px 0;'
 );
